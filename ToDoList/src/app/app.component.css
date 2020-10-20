@@ -1,0 +1,30 @@
+header {
+  color: #b8cf69;
+  background: #3b474c;
+  font-family: 'Kalam', cursive;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px 0;
+  height: 65px;
+}
+
+#main {
+  font-family: 'Roboto', serif;
+  color: #1c1c1c;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 800px 1fr;
+}
+
+th,
+td {
+  height: 40px;
+  border: 1px solid darkgray;
+  padding: 5px;
+}
+
+th {
+  text-align: center;
+  background: #f5f5f5;
+}
+
