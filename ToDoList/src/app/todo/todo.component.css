@@ -1,0 +1,25 @@
+body {
+  color: #0c0aa1fd;
+  background-color: #f6fa0252;
+  text-align: center;
+}
+
+th,
+td {
+  text-align: center;
+  height: 40px;
+  border: 3px solid darkgray;
+  padding: 5px;
+}
+
+th {
+  color: orangered;
+}
+
+.button-delete {
+  color: red;
+}
+
+.button-add {
+  color: darkblue;
+}
