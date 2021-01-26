@@ -15,7 +15,7 @@ export function HttpLoaderFactory(
   httpClient: HttpClient
 ): MultiTranslateHttpLoader {
   return new MultiTranslateHttpLoader(httpClient, [
-    { prefix: './assets/translate/', suffix: '.json' },
+    { prefix: 'assets/translate/', suffix: '.json' },
   ]);
 }
 
